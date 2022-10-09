@@ -1,0 +1,8 @@
+version: '3'
+services:
+  frontend:
+    container_name: frontend-react-app
+    build: 
+      # context chi dinh dockerfile neu cung cap thi . khong thi vd: ./frontnend
+      context: . 
+      dockerfile: Dockerfile
